@@ -10,6 +10,11 @@ int main()
              << " table, an offset, and more.\n"
              << "But no matter.\nAnd although there are many keys to try, I too hold my own secrets!\n"
              << "To that end, user, let's start with some questions.\n"
-             << "WHAT SHALL BE THE OFFSET OF THY ENCRYPTION WHEEL?\n";
+             << "WHAT SHALL BE THE OFFSET OF THY ENCRYPTION WHEEL?\n"
+             << "-> ";
+        int user_offset;
+        cin << user_offset;
+        // if good yada yada
+        Wander user(user_offset);
         return 0;
 }
