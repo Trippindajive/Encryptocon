@@ -4,10 +4,15 @@ using namespace std;
 
 Wander::Wander()
 {
-    this->encyp_offset = -1;
+    encyp_offset = -1;
 }
 
 Wander::Wander(int offset)
 {
-    this->encyp_offset = encyp_offset;
+    encyp_offset = offset;
 }
+
+/*void Wander::receiveMessageToEncrypt(string plaintext)
+{
+    setPlainText(plaintext);
+}*/

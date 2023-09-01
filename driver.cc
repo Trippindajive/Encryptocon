@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Wander.h"
 
 using namespace std;
 
@@ -13,7 +14,7 @@ int main()
              << "WHAT SHALL BE THE OFFSET OF THY ENCRYPTION WHEEL?\n"
              << "-> ";
         int user_offset;
-        cin << user_offset;
+        cin >> user_offset;
         // if good yada yada
         Wander user(user_offset);
         return 0;
