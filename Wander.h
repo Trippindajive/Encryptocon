@@ -10,7 +10,7 @@ class Wander
     Wander(int);
   private:
     int encyp_offset;
-    string plaintext;
+    std::string plaintext;
 };
 
 #endif /* WANDER_H_INCLUDED*/
